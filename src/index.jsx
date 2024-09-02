@@ -6,14 +6,14 @@ import {
   Route,
 } from "react-router-dom";
 
-import App from './pages/App';
+import Dashboard from './pages/Dashboard';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HashRouter>
         <Routes>
-          <Route path="/" element={<App />}/>
+          <Route path="/" element={<Dashboard />}/>
         </Routes>
     <React.StrictMode></React.StrictMode>
   </HashRouter>,
