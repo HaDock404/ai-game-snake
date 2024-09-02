@@ -28,7 +28,7 @@ $ pwd
 $ sudo docker cp <container_id_or_name>:/path/database.db /path/to/download
 ```  
 
-To dowload the database from a distant computer, do the command below in the distant repository:
+To dowload the database from a distant computer, do the command below:
 ```bash
 $ scp username@192.x.x:/path/file.x .
 ```  
