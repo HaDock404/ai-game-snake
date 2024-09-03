@@ -1,4 +1,5 @@
 import Intro from "./Intro"
+import Expandable_box from "./Expandable_box"
 
 function Main() {
     return (
@@ -11,6 +12,7 @@ function Main() {
                 notre jeu Snake."
                 quote="Attention, ce serpent n'a pas de freins... Bon courage pour ne pas finir en nœud!"
             />
+            <Expandable_box />
         </main>
     )
 }
