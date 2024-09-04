@@ -5,7 +5,7 @@ function ExpandableBox(props) {
     return (
         <div id="expandable-box">
             <input type="checkbox" id="toggle"></input>
-            <label for="toggle" id="box-header">
+            <label htmlFor="toggle" id="box-header">
                 <h3 id="main-paragraph-title">
                     {props.title}<span id={props.span_color}>{props.span_text}</span>
                 </h3>
