@@ -1,7 +1,11 @@
 import Intro from "./Intro"
 import ExpandableBox from "./ExpandableBox"
 import ExpandableBoxWithImage from "./ExpandableBoxWithImage"
-import Image1 from '../assets/test-image.jpg'
+import ExpandableBoxWithGraph from "./ExpandableBoxWithGraph"
+
+import Image1 from '../assets/image1.jpg'
+import Image2 from '../assets/image2.jpg'
+import Image3 from '../assets/image3.jpg'
 
 function Main() {
     return (
@@ -48,6 +52,23 @@ function Main() {
                 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
                 recently with desktop publishing software like Aldus PageMaker including versions of 
                 Lorem Ipsum."
+            />
+            <ExpandableBoxWithGraph 
+                title="Présentation du projet"
+                span_color="documentation"
+                span_text="Documentation"
+                text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has survived not only five centuries, but also the leap into 
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 
+                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
+                recently with desktop publishing software like Aldus PageMaker including versions of 
+                Lorem Ipsum."
+                image1={Image2}
+                image1_title="Test1"
+                image2={Image3}
+                image2_title="Test2"
             />
         </main>
     )

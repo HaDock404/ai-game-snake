@@ -1,0 +1,123 @@
+#expandable-box-with-graph {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#expandable-box-with-graph:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.01);
+}
+
+#box-header-with-graph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#box-header-with-graph h3 {
+    margin: 0;
+}
+
+#main-paragraph-title-with-graph {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#main-paragraph-text-with-graph {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#documentation {
+    background-color: #f0f0f0;
+    font-size: 13px;
+    color: black;
+    padding: 2px 4px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+#graphical {
+    background-color: #81ef52;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    padding: 2px 4px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+#arrow-with-graph {
+    font-size: 20px;
+}
+
+#box-content-with-graph {
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+  input[id="toggle-with-graph"]:checked + #box-header-with-graph #arrow-with-graph {
+    transform: rotate(90deg);
+}
+
+  input[id="toggle-with-graph"]:checked ~ #box-content-with-graph {
+    max-height: 100000px;
+}
+
+#main-paragraph-radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+
+#radio-style {
+    margin-right: 20px;
+}
+
+#image1 {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    display: block;
+}
+
+#image2 {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    display: block;
+}
+
+#main-paragraph-image-display_2 {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    display: block;
+}
