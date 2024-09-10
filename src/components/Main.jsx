@@ -2,22 +2,27 @@ import Intro from "./Intro"
 import ExpandableBox from "./ExpandableBox"
 import ExpandableBoxWithImage from "./ExpandableBoxWithImage"
 import ExpandableBoxWithGraph from "./ExpandableBoxWithGraph"
+import NavLinks from "./NavLinks"
 
 import Image1 from '../assets/image1.jpg'
 import Image2 from '../assets/image2.jpg'
 import Image3 from '../assets/image3.jpg'
 
+import React, { useContext } from 'react';
+import { LanguageContext } from './LanguageContext';
+import * as Text from "./AllText";
+
 function Main() {
+    const { language } = useContext(LanguageContext);
+
     return (
         <main>
             <Intro 
-                title="Bienvenue dans mon tableau de bord"
-                text="Ce tableau de bord à pour objectif de permettre à un 
-                public non averti de comprendre la méthodologie de récupération de données
-                ainsi que leur traitement afin de comprendre la manière de jouer des testeurs de 
-                notre jeu Snake."
-                quote="Attention, ce serpent n'a pas de freins... Bon courage pour ne pas finir en nœud!"
+                title={Text.intro_title[language]}
+                text={Text.intro_text[language]}
+                quote={Text.intro_quote[language]}
             />
+            <NavLinks />
             <ExpandableBox 
                 title="Présentation du projet"
                 span_color="documentation"
