@@ -1,4 +1,4 @@
-#expandable-box-with-image {
+.expandable-box-with-image {
     max-width: 80%;
     margin: 20px auto;
     padding: 20px;
@@ -6,14 +6,15 @@
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
 
-#expandable-box-with-image:hover {
+.expandable-box-with-image:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transform: scale(1.01);
 }
 
-#box-header-with-image {
+.box-header-with-image {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,17 +22,17 @@
     cursor: pointer;
 }
 
-#box-header-with-image h3 {
+.box-header-with-image h3 {
     margin: 0;
 }
 
-#main-paragraph-title-with-image {
+.main-paragraph-title-with-image {
     font-size: 1.5em;
     color: #333;
     margin-bottom: 20px;
 }
 
-#main-paragraph-text-with-image {
+.main-paragraph-text-with-image {
     font-size: 1.2em;
     color: #666;
     line-height: 1.5;
@@ -40,7 +41,7 @@
     width: 100%;
 }
 
-#documentation {
+.documentation {
     background-color: #f0f0f0;
     font-size: 13px;
     color: black;
@@ -49,7 +50,7 @@
     border-radius: 4px;
 }
 
-#graphical {
+.graphical {
     background-color: #81ef52;
     font-size: 13px;
     color: rgb(255, 255, 255);
@@ -58,11 +59,11 @@
     border-radius: 4px;
 }
 
-#arrow-with-image {
+.arrow-with-image {
     font-size: 20px;
 }
 
-#box-content-with-image {
+.box-content-with-image {
     padding: 10px;
     max-height: 0;
     overflow: hidden;
@@ -73,15 +74,15 @@ input[type="checkbox"] {
     display: none;
 }
 
-  input[id="toggle-with-image"]:checked + #box-header-with-image #arrow-with-image {
+  input[type="checkbox"]:checked + .box-header-with-image .arrow-with-image {
     transform: rotate(90deg);
 }
 
-  input[id="toggle-with-image"]:checked ~ #box-content-with-image {
+  input[type="checkbox"]:checked ~ .box-content-with-image {
     max-height: 100000px;
 }
 
-#image {
+.image {
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -89,7 +90,7 @@ input[type="checkbox"] {
     align-items: center;
 }
 
-#image img {
+.image img {
     max-width: 100%;
     height: auto;
     display: block;
