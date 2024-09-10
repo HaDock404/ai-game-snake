@@ -8,6 +8,9 @@ import Image1 from '../assets/image1.jpg'
 import Image2 from '../assets/image2.jpg'
 import Image3 from '../assets/image3.jpg'
 
+import Snake from '../assets/Snake.png'
+import API from '../assets/API.png'
+
 import React, { useContext } from 'react';
 import { LanguageContext } from './LanguageContext';
 import * as Text from "./AllText";
@@ -36,8 +39,17 @@ function Main() {
                 span_color="documentation"
                 span_text="Documentation"
                 text={Text.text_02[language]}
-                image={Image1}
+                image={Snake}
                 text_paragraph={Text.text_02bis[language]}
+            />
+            <ExpandableBoxWithImage 
+                id="id4"
+                title={Text.title_04[language]}
+                span_color="documentation"
+                span_text="Documentation"
+                text={Text.text_04[language]}
+                image={API}
+                text_paragraph={Text.text_04bis[language]}
             />
             <ExpandableBoxWithGraph
                 id="id3"
