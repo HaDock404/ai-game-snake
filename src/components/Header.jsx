@@ -1,9 +1,17 @@
 import '../styles/header.css'
+import Dropdown from './Dropdown'
+import Worldicon from './Worldicon'
 
-function Header() {
+function Header(props) {
     return (
         <header id="header">
-            Dashboard du Jeu Snake
+            <div>
+                {props.title}
+            </div>
+            <div className='lang-menu'>
+                <Worldicon />
+                <Dropdown />
+            </div>
         </header>
     )
 }

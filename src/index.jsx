@@ -7,15 +7,18 @@ import {
 } from "react-router-dom";
 
 import Dashboard from './pages/Dashboard';
+import { LanguageProvider } from './components/LanguageContext';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HashRouter>
+    <LanguageProvider>
         <Routes>
           <Route path="/" element={<Dashboard />}/>
         </Routes>
     <React.StrictMode></React.StrictMode>
+    </LanguageProvider>
   </HashRouter>,
 );
 

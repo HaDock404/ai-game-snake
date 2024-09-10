@@ -1,9 +1,9 @@
 import '../styles/footer.css'
 
-function Footer() {
+function Footer(props) {
     return (
         <footer>
-            <p>Tous droits réservés haDock404</p>
+            <p>{props.footer}</p>
         </footer>
     )
 }
