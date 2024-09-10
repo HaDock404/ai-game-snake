@@ -1,18 +1,20 @@
 import '../styles/expandable_box.css'
 
-function ExpandableBox(props) {
-    "rersr"
+function ExpandableBoxWithImage(props) {
+
+    const checkboxId = `toggle-${props.id}`
+
     return (
-        <div id="expandable-box">
-            <input type="checkbox" id="toggle"></input>
-            <label htmlFor="toggle" id="box-header">
-                <h3 id="main-paragraph-title">
-                    {props.title}<span id={props.span_color}>{props.span_text}</span>
+        <div className="expandable-box">
+            <input type="checkbox" id={checkboxId}></input>
+            <label htmlFor={checkboxId} className="box-header">
+                <h3 className="main-paragraph-title">
+                    {props.title}<span className={props.span_color}>{props.span_text}</span>
                 </h3>
-              <span id="arrow">&#9658;</span>
+              <span className="arrow">&#9658;</span>
             </label>
-            <div id="box-content">
-                <div id="main-paragraph-text">
+            <div className="box-content">
+                <div className="main-paragraph-text">
                     {props.text}
                 </div>
             </div>
@@ -20,4 +22,4 @@ function ExpandableBox(props) {
     )
 }
 
-export default ExpandableBox
+export default ExpandableBoxWithImage
