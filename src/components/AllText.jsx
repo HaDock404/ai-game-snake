@@ -36,3 +36,18 @@ export const text_02bis = {
     en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     fr: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 };
+
+/////////////////////////////////////////////////////////
+
+export const title_03 = {
+    en: "Expandable Box",
+    fr: "Boite expensive"
+};
+export const text_03 = {
+    en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    fr: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+};
+export const text_03bis = {
+    en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    fr: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+};
