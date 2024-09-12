@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/ai-game-snake/static/css/main.edccca3e.css",
-    "main.js": "/ai-game-snake/static/js/main.8d8bfa27.js",
+    "main.js": "/ai-game-snake/static/js/main.b5658d70.js",
     "static/js/453.166e0437.chunk.js": "/ai-game-snake/static/js/453.166e0437.chunk.js",
     "static/media/image3.jpg": "/ai-game-snake/static/media/image3.441e48425668c7dcda45.jpg",
     "static/media/API.png": "/ai-game-snake/static/media/API.6cdaeffc5332ecfea9d5.png",
+    "static/media/Command.png": "/ai-game-snake/static/media/Command.4593b4b3d829df7aa1be.png",
     "static/media/image1.jpg": "/ai-game-snake/static/media/image1.a49e8605bbe2a9bf0e04.jpg",
     "static/media/image2.jpg": "/ai-game-snake/static/media/image2.a49e8605bbe2a9bf0e04.jpg",
     "static/media/Snake.png": "/ai-game-snake/static/media/Snake.b8841be0f64dbd6e919c.png",
+    "static/media/JSON.png": "/ai-game-snake/static/media/JSON.0c057591c8f08e0c78cb.png",
     "static/media/linkedin.jpg": "/ai-game-snake/static/media/linkedin.1affb16d9de05d94b8d3.jpg",
     "index.html": "/ai-game-snake/index.html",
     "main.edccca3e.css.map": "/ai-game-snake/static/css/main.edccca3e.css.map",
-    "main.8d8bfa27.js.map": "/ai-game-snake/static/js/main.8d8bfa27.js.map",
+    "main.b5658d70.js.map": "/ai-game-snake/static/js/main.b5658d70.js.map",
     "453.166e0437.chunk.js.map": "/ai-game-snake/static/js/453.166e0437.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edccca3e.css",
-    "static/js/main.8d8bfa27.js"
+    "static/js/main.b5658d70.js"
   ]
 }
