@@ -59,10 +59,18 @@ export const title_03 = {
     fr: "Base de données"
 };
 export const text_03 = {
-    en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    fr: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    en: "The SQLite database allows for a simple and lightweight configuration. Its serverless architecture enables direct reading and writing of data without a client-server setup. It is stored in a Docker container that does not have persistence outside the container. To access it, you need to run the commands shown in image 1 to copy the data locally, allowing you to manipulate and analyze it afterward. You can access the database data in JSON format at the following address: https://github.com/HaDock404/api-game-snake. Image 2 provides a quick visualization of the data. In order, they correspond to the snake's head position in X, the number of apples eaten, the apple's position in X, the previous position of the apple in X, the game board size in X, the game ID, the snake's head position in Y, the game time in milliseconds, the apple's position in Y, the previous position of the apple in Y, and the game board size in Y.",
+    fr: "La base de données SQLite, permet une configuration simple et légère, son architecture sans serveur permet de lire et écrire des données directement sans architecture client-serveur. Elle est stocké dans un container Docker qui n'a pas de persistance à l'extérieur du conteneur. Pour pouvoir y accéder il faut réaliser les commandes de l'image 1 afin de copier en local les données pour pouvoir ensuite les manipuler afin de les analyser. Vous pouvez avoir accès aux données de la base de données au format JSON à l'adresse https://github.com/HaDock404/api-game-snake . L'image 2 permet de visualiser rapidement les données. Dans l'ordre elles correspondent à la position de la tête du serpent en X, le nombre de pommes mangées, la position de la pomme en X, la position précédente de la pomme en X, la taille du tableau de jeu en X, l'identifiant de partie, la tête du serpent en Y, le temps de jeu en milliseconde,la position de la pomme en Y, la position précédente de la pomme en Y, la taille du tableau de jeu en X."
+};
+export const image1_title = {
+    en: "Command Line",
+    fr: "Ligne de commande"
+};
+export const image2_title = {
+    en: "JSON database",
+    fr: "Base de données JSON"
 };
 export const text_03bis = {
-    en: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    fr: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    en: "",
+    fr: ""
 };

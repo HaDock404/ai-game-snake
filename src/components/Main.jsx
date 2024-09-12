@@ -10,6 +10,8 @@ import Image3 from '../assets/image3.jpg'
 
 import Snake from '../assets/Snake.png'
 import API from '../assets/API.png'
+import JSON from '../assets/JSON.png'
+import Command from '../assets/Command.png'
 
 import React, { useContext } from 'react';
 import { LanguageContext } from './LanguageContext';
@@ -57,10 +59,10 @@ function Main() {
                 span_color="documentation"
                 span_text="Documentation"
                 text={Text.text_03[language]}
-                image1={Image2}
-                image1_title="Test1"
-                image2={Image3}
-                image2_title="Test2"
+                image1={Command}
+                image1_title={Text.image1_title[language]}
+                image2={JSON}
+                image2_title={Text.image2_title[language]}
             />
         </main>
     )
