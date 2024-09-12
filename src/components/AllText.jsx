@@ -82,16 +82,16 @@ export const title_05 = {
     fr: "Manipulation des données"
 };
 export const text_05 = {
-    en: "",
-    fr: "Pour nous permettre d'analyser les données de jeu, il faut d'abord les extraire correctement avec un format compréhensible par l'humain pour simplifer leur interprétation. Pour cela nous allons utiliser sqlite3 afin d'intéragir avec la base de données. Dans la première image je présente les commandes simples qui permettent de naviguer dans les données et de les extraire afin de les manipuler en python."
+    en: "To allow us to analyze the game data, it must first be extracted properly in a format understandable by humans to simplify interpretation. For this, we will use sqlite3 to interact with the database. In the first image, I present the simple commands that allow navigation through the data and extraction for manipulation in Python. In the second image, you can find the dataframe that will allow us to perform our data analysis. This dataframe was obtained through the steps of the following notebook: https://github.com/HaDock404/ai-game-snake/blob/master/data_analytics/data_extraction.ipynb",
+    fr: "Pour nous permettre d'analyser les données de jeu, il faut d'abord les extraire correctement avec un format compréhensible par l'humain pour simplifer leur interprétation. Pour cela nous allons utiliser sqlite3 afin d'intéragir avec la base de données. Dans la première image je présente les commandes simples qui permettent de naviguer dans les données et de les extraire afin de les manipuler en python. Dans la seconde image vous pouvez retrouvez le dataframe qui va nous permettre de réaliser notre analyse de données. Ce dataframe a été obtenu grâce aux étapes du notebook suivant https://github.com/HaDock404/ai-game-snake/blob/master/data_analytics/data_extraction.ipynb"
 };
 export const image1_05_title = {
     en: "SQLite3",
     fr: "SQLite3"
 };
 export const image2_05_title = {
-    en: "JSON database",
-    fr: "Base de données JSON"
+    en: "Dataframe",
+    fr: "Dataframe"
 };
 export const text_05bis = {
     en: "",

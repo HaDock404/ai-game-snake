@@ -13,6 +13,7 @@ import API from '../assets/API.png'
 import JSON from '../assets/JSON.png'
 import Command from '../assets/Command.png'
 import SQLite3 from '../assets/SQLite3.png'
+import data from '../assets/data.png'
 
 import React, { useContext } from 'react';
 import { LanguageContext } from './LanguageContext';
@@ -73,7 +74,7 @@ function Main() {
                 text={Text.text_05[language]}
                 image1={SQLite3}
                 image1_title={Text.image1_05_title[language]}
-                image2={JSON}
+                image2={data}
                 image2_title={Text.image2_05_title[language]}
             />
         </main>

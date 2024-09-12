@@ -1,10 +1,10 @@
 import '../styles/expandable_box_with_graph.css'
 
-function display_cloudWords(image_props, path) {
-    var displayed_image_1 = document.querySelector('.main-paragraph-image-display_2');
+function display_cloudWords(imageId, path) {
+    var displayed_image = document.getElementById(imageId); // Use unique ID to target image
 
-    if (displayed_image_1) {
-        displayed_image_1.src = path;
+    if (displayed_image) {
+        displayed_image.src = path;
     }
 }
 
@@ -12,7 +12,11 @@ function display_cloudWords(image_props, path) {
 
 function ExpandableBoxWithGraphBis(props) {
 
-    const checkboxId = `toggle-${props.id}`
+    const checkboxId = `toggle-${props.id}`;
+    const input01 = `input01-${props.id}`;
+    const input02 = `input02-${props.id}`;
+    const imageId = `image-display-${props.id}`; // Unique image ID
+    const radioGroupName = `image_choice-${props.id}`;
 
     return (
         <div className="expandable-box">
@@ -21,7 +25,7 @@ function ExpandableBoxWithGraphBis(props) {
                 <h3 className="main-paragraph-title">
                     {props.title}<span className={props.span_color}>{props.span_text}</span>
                 </h3>
-              <span className="arrow">&#9658;</span>
+                <span className="arrow">&#9658;</span>
             </label>
             <div className="box-content">
                 <div className="main-paragraph-text">
@@ -29,28 +33,31 @@ function ExpandableBoxWithGraphBis(props) {
                     <div id="main-paragraph-radio">
                         <input
                             type="radio"
-                            name="image_choice"
+                            id={input01}
+                            name={radioGroupName}
                             value="image1"
                             className="image1"
-                            onClick={()=> display_cloudWords('image1', props.image1)}
+                            onClick={() => display_cloudWords(imageId, props.image1)} // Pass unique image ID
                             defaultChecked
                         />
-                        <label className="radio-style" htmlFor="image1">{props.image1_title}</label>
+                        <label className="radio-style" htmlFor={input01}>{props.image1_title}</label>
                         <input
                             type="radio"
-                            name="image_choice"
+                            id={input02}
+                            name={radioGroupName}
                             value="image2"
                             className="image2"
-                            onClick={()=> display_cloudWords('image2', props.image2)}
+                            onClick={() => display_cloudWords(imageId, props.image2)} // Pass unique image ID
                         />
-                        <label className="radio-style" htmlFor="image2">{props.image2_title}</label>
+                        <label className="radio-style" htmlFor={input02}>{props.image2_title}</label>
                     </div>
                     
-                    <div class="main-paragraph-image">
+                    <div className="main-paragraph-image">
                         <img
+                            id={imageId}  // Set unique ID for each image
                             src={props.image1}
-                            alt=""
-                            className="main-paragraph-image-display_2"
+                            alt={props.image1}
+                            className="main-paragraph-image-display"
                             style={{
                                 width: "100%",
                                 height: "auto",
@@ -61,7 +68,7 @@ function ExpandableBoxWithGraphBis(props) {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default ExpandableBoxWithGraphBis
+export default ExpandableBoxWithGraphBis;
