@@ -4,14 +4,15 @@ import ExpandableBoxWithImage from "./ExpandableBoxWithImage"
 import ExpandableBoxWithGraph from "./ExpandableBoxWithGraph"
 import NavLinks from "./NavLinks"
 
-import Image1 from '../assets/image1.jpg'
-import Image2 from '../assets/image2.jpg'
-import Image3 from '../assets/image3.jpg'
+// import Image1 from '../assets/image1.jpg'
+// import Image2 from '../assets/image2.jpg'
+// import Image3 from '../assets/image3.jpg'
 
 import Snake from '../assets/Snake.png'
 import API from '../assets/API.png'
 import JSON from '../assets/JSON.png'
 import Command from '../assets/Command.png'
+import SQLite3 from '../assets/SQLite3.png'
 
 import React, { useContext } from 'react';
 import { LanguageContext } from './LanguageContext';
@@ -63,6 +64,17 @@ function Main() {
                 image1_title={Text.image1_title[language]}
                 image2={JSON}
                 image2_title={Text.image2_title[language]}
+            />
+            <ExpandableBoxWithGraph
+                id="id5"
+                title={Text.title_05[language]}
+                span_color="documentation"
+                span_text="Documentation"
+                text={Text.text_05[language]}
+                image1={SQLite3}
+                image1_title={Text.image1_05_title[language]}
+                image2={JSON}
+                image2_title={Text.image2_05_title[language]}
             />
         </main>
     )

@@ -74,3 +74,26 @@ export const text_03bis = {
     en: "",
     fr: ""
 };
+
+/////////////////////////////////////////////////////////
+
+export const title_05 = {
+    en: "Data manipulation",
+    fr: "Manipulation des données"
+};
+export const text_05 = {
+    en: "",
+    fr: "Pour nous permettre d'analyser les données de jeu, il faut d'abord les extraire correctement avec un format compréhensible par l'humain pour simplifer leur interprétation. Pour cela nous allons utiliser sqlite3 afin d'intéragir avec la base de données. Dans la première image je présente les commandes simples qui permettent de naviguer dans les données et de les extraire afin de les manipuler en python."
+};
+export const image1_05_title = {
+    en: "SQLite3",
+    fr: "SQLite3"
+};
+export const image2_05_title = {
+    en: "JSON database",
+    fr: "Base de données JSON"
+};
+export const text_05bis = {
+    en: "",
+    fr: ""
+};
