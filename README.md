@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Here is my dashboard for my data analysis of a Snake game I created in another repository. I try to study the players' playing methodology.   
+Here is my dashboard presenting a data analysis of a Snake game I created in another repository. This project explain the methodology of data retrieval as well as its processing in order to grasp how the testers of our Snake game play.  
 
 ## Description  
 

@@ -101,20 +101,20 @@ export const text_05bis = {
 /////////////////////////////////////////////////////////
 
 export const title_06 = {
-    en: "test",
-    fr: "test"
+    en: "Game analysis",
+    fr: "Analyse de jeu"
 };
 export const text_06 = {
-    en: "",
-    fr: ""
+    en: "This project enjoyed significant success during its brief one-week lifespan, with over 80 games played. The game was distributed across various platforms and shared with my family and close contacts. The first observation is the difficulty in controlling the snake beyond the twentieth apple collected. While some players managed to achieve high scores, the majority seem to stall around 10. The analysis of the interquartile range of the scores, as shown in the first image, highlights this trend, although a few distant outliers were observed. We believe that once the game controls are mastered, it becomes easier to improve performance. However, a barrier appears around 60 apples collected, likely due to the snake's large size, making navigation more challenging. In the second image, the interquartile range of playtime perfectly aligns with that of the scores, as these two parameters are intrinsically linked: the longer a player plays, the higher their chances of achieving a good score. This initial analysis already allows us to assess the difficulty of our game and adjust it to enhance player engagement over time.",
+    fr: "Ce projet a rencontré un franc succès durant sa brève existence d'une semaine, avec plus de 80 parties jouées. Le jeu a été diffusé sur différentes plateformes et partagé avec ma famille et mes proches. Le premier constat est la difficulté à contrôler le serpent au-delà de la vingtième pomme récupérée. Bien que certains joueurs aient réussi à obtenir de bons scores, la majorité semble stagner autour de 10. L'analyse de l'interquartile des scores, comme le montre la première image, fait ressortir cette tendance, bien que quelques outliers très éloignés soient observés. Nous pensons qu'une fois les contrôles du jeu maîtrisés, il devient plus facile d'améliorer ses performances. Toutefois, une barrière semble apparaître autour de 60 pommes récupérées, probablement due à la taille importante du serpent, rendant la navigation plus complexe. Sur la deuxième image, l'interquartile du temps de jeu correspond parfaitement à celui des scores, ces deux paramètres étant intrinsèquement liés : plus un joueur passe de temps à jouer, plus il a de chances d'obtenir un bon score. Cette première analyse nous permet déjà d'évaluer la difficulté de notre jeu et de l'ajuster afin de prolonger l'engagement des joueurs."
 };
 export const image1_06_title = {
-    en: "SQLite3",
-    fr: "SQLite3"
+    en: "Interquartile Score",
+    fr: "Interquartile Score"
 };
 export const image2_06_title = {
-    en: "Dataframe",
-    fr: "Dataframe"
+    en: "Interquartile Time",
+    fr: "Interquartile Temps"
 };
 export const text_06bis = {
     en: "",
