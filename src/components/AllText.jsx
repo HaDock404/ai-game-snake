@@ -151,8 +151,8 @@ export const title_08 = {
     fr: "Position"
 };
 export const text_08 = {
-    en: "",
-    fr: ""
+    en: "This chart is the most interesting for us, as it clearly shows the position of the snake's head and the apple at the moment players lost. There is no consistency in the position of the apples when players lost; they are placed randomly, and no discernible pattern emerges, preventing us from making any hypotheses based on this data. However, a repeating pattern in the position of the snake's head is immediately noticeable. Players consistently lose near the edges of the game field. As the snake's speed increases rapidly, it can become difficult to judge the right moment to turn when near the edges. Since hitting a wall is an elimination condition, and low scores do not allow the snake to grow long enough for the head to touch its own body (another elimination condition), it is logical that games often end this way.",
+    fr: "Ce graphique est pour nous le plus intéressant, car il permet de visualiser clairement la position de la tête du serpent et de la pomme au moment où les joueurs ont perdu. Il n’y a pas de cohérence dans la position des pommes lors des défaites, elles sont disposées de manière aléatoire, et aucun modèle ne semble se dégager, ce qui ne nous permet pas de formuler des hypothèses à partir de ces données. En revanche, on remarque immédiatement une répétition dans la position de la tête du serpent. Les joueurs perdent systématiquement sur les bords du terrain de jeu. La vitesse de déplacement du serpent augmentant rapidement, il peut devenir difficile de juger le bon moment pour tourner lorsque le serpent se trouve près des bords. Étant donné que toucher un bord est éliminatoire et que les scores faibles ne permettent pas au serpent d’être assez long pour que sa tête touche son propre corps (autre condition d'élimination), il est donc logique que les parties se terminent de cette manière."
 };
 export const text_08bis = {
     en: "",
