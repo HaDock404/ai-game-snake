@@ -124,20 +124,20 @@ export const text_06bis = {
 /////////////////////////////////////////////////////////
 
 export const title_07 = {
-    en: "test",
-    fr: "test"
+    en: "Player distribution",
+    fr: "Répartition des joueurs"
 };
 export const text_07 = {
-    en: "",
-    fr: ""
+    en: "The first chart clearly represents the different categories of people who played our game. On one hand, our close contacts, who achieved modest scores, and on the other hand, strangers, more familiar with technology, who managed to achieve very high scores. It would also have been useful to identify players based on their scores to track their progression over multiple games. In the second bar chart, we see the distribution of players according to different score ranges. There is a noticeable concentration of low scores, which corresponds to our close contacts who tested the game first, and likely to players who did not immediately master the controls and lost quickly. The scores are consistent, with a significant proportion of players scoring below 20, while a minority managed to exceed this threshold.",
+    fr: "Le premier graphique reflète bien les différentes catégories de personnes ayant joué à notre jeu. D'une part, nos proches, qui réalisent des scores modestes, et d'autre part, des inconnus, plus familiers avec les technologies, qui obtiennent de très bons scores. Il aurait également été pertinent d'identifier les joueurs en fonction de leurs scores pour suivre leur progression au fil des parties. Dans le deuxième diagramme en barres, nous observons la répartition des joueurs en fonction de différentes tranches de score. Une concentration notable sur les scores bas est visible, ce qui correspond à nos proches ayant testé le jeu en premier, puis probablement à des joueurs n'ayant pas immédiatement maîtrisé les contrôles, perdant ainsi assez rapidement. Les scores sont cohérents avec une proportion significative de joueurs obtenant un score inférieur à 20, tandis qu'une minorité parvient à dépasser cette limite."
 };
 export const image1_07_title = {
-    en: "SQLite3",
-    fr: "SQLite3"
+    en: "Distribution",
+    fr: "Répartition"
 };
 export const image2_07_title = {
-    en: "Dataframe",
-    fr: "Dataframe"
+    en: "Rank",
+    fr: "Rang"
 };
 export const text_07bis = {
     en: "",
@@ -147,8 +147,8 @@ export const text_07bis = {
 /////////////////////////////////////////////////////////
 
 export const title_08 = {
-    en: "test",
-    fr: "test"
+    en: "Position",
+    fr: "Position"
 };
 export const text_08 = {
     en: "",
@@ -162,8 +162,8 @@ export const text_08bis = {
 /////////////////////////////////////////////////////////
 
 export const title_09 = {
-    en: "test",
-    fr: "test"
+    en: "Conclusion",
+    fr: "Conclusion"
 };
 export const text_09 = {
     en: "",
