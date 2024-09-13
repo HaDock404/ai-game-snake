@@ -19,6 +19,7 @@ import Time from '../assets/Time.png'
 import Score2 from '../assets/Score2.png'
 import Score3 from '../assets/Score3.png'
 import Loss from '../assets/Loss.png'
+import Scheme from '../assets/Scheme.png'
 
 import React, { useContext } from 'react';
 import { LanguageContext } from './LanguageContext';
@@ -119,7 +120,7 @@ function Main() {
                 span_color="documentation"
                 span_text="Documentation"
                 text={Text.text_09[language]}
-                image={Loss}
+                image={Scheme}
                 text_paragraph={Text.text_09bis[language]}
             />
         </main>

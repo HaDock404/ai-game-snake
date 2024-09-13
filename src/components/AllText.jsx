@@ -166,8 +166,8 @@ export const title_09 = {
     fr: "Conclusion"
 };
 export const text_09 = {
-    en: "",
-    fr: ""
+    en: "We could have further expanded data collection and analysis to refine our game, but that was not our primary objective. We aimed to briefly explore the possibilities of this project, which serves as an excellent exercise without requiring too much time. This project allows us to demonstrate the overall process of putting a simple application into production. Complete deployment involves multiple layers of development and various tools working in synergy to ensure the application functions smoothly. The diagram below illustrates the project's architecture and highlights its complexity. This experience has given us a better understanding of the challenges related to designing, developing, and optimizing a web application, while balancing the simplicity of the product with the technical requirements necessary for its deployment.",
+    fr: "Nous aurions pu approfondir la collecte et l'analyse des données pour affiner davantage notre jeu, mais ce n'était pas notre objectif initial. Nous voulions simplement explorer les possibilités offertes par ce projet, qui constitue un excellent exercice, sans toutefois y consacrer trop de temps. Ce projet nous permet de démontrer la mise en production d'une application simple dans son ensemble. Le déploiement complet implique de nombreuses couches de développement et l'utilisation de différents outils, travaillant en synergie pour assurer le bon fonctionnement de l'application. Le schéma ci-dessous illustre l'architecture du projet et met en lumière sa complexité. Cette expérience nous a permis de mieux comprendre les enjeux liés à la conception, au développement et à l'optimisation d'une application web, tout en équilibrant la simplicité du produit avec les exigences techniques nécessaires à sa mise en production."
 };
 export const text_09bis = {
     en: "",
