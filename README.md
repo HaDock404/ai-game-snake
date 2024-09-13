@@ -8,7 +8,7 @@ Here is my dashboard presenting a data analysis of a Snake game I created in ano
 
 Different sensors make it possible to recover the movements of the snake in the Snake Game, then are sent to an API allowing the players' playing methods to be analyzed in order to carry out a gameplay study. Then I recovered the database with sqlite3 and analysed them.  
 
-![Example](./documentation/Image1.png)
+![Example](./documentation/Image2.png)
 
 ## Table of Contents
 
