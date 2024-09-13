@@ -1,22 +1,28 @@
 {
   "files": {
     "main.css": "/ai-game-snake/static/css/main.edccca3e.css",
-    "main.js": "/ai-game-snake/static/js/main.60164492.js",
+    "main.js": "/ai-game-snake/static/js/main.0ecde680.js",
     "static/js/453.166e0437.chunk.js": "/ai-game-snake/static/js/453.166e0437.chunk.js",
+    "static/media/Scheme.png": "/ai-game-snake/static/media/Scheme.003c09e51dd4447b2913.png",
     "static/media/SQLite3.png": "/ai-game-snake/static/media/SQLite3.71b7d9555b7777eff1de.png",
     "static/media/API.png": "/ai-game-snake/static/media/API.6cdaeffc5332ecfea9d5.png",
     "static/media/Command.png": "/ai-game-snake/static/media/Command.4593b4b3d829df7aa1be.png",
     "static/media/data.png": "/ai-game-snake/static/media/data.577a99bf673077f43f94.png",
     "static/media/Snake.png": "/ai-game-snake/static/media/Snake.b8841be0f64dbd6e919c.png",
     "static/media/JSON.png": "/ai-game-snake/static/media/JSON.0c057591c8f08e0c78cb.png",
+    "static/media/Loss.png": "/ai-game-snake/static/media/Loss.e419b8ea5ec5da0ecbf2.png",
+    "static/media/Score2.png": "/ai-game-snake/static/media/Score2.5764e01c5a9d5bbd4977.png",
+    "static/media/Score3.png": "/ai-game-snake/static/media/Score3.1d076a6b9b0c7c2b5d9c.png",
     "static/media/linkedin.jpg": "/ai-game-snake/static/media/linkedin.1affb16d9de05d94b8d3.jpg",
+    "static/media/Time.png": "/ai-game-snake/static/media/Time.8f06a8d8596af3d0c09a.png",
+    "static/media/Score.png": "/ai-game-snake/static/media/Score.ea4d76c1648ed4a5ccdf.png",
     "index.html": "/ai-game-snake/index.html",
     "main.edccca3e.css.map": "/ai-game-snake/static/css/main.edccca3e.css.map",
-    "main.60164492.js.map": "/ai-game-snake/static/js/main.60164492.js.map",
+    "main.0ecde680.js.map": "/ai-game-snake/static/js/main.0ecde680.js.map",
     "453.166e0437.chunk.js.map": "/ai-game-snake/static/js/453.166e0437.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edccca3e.css",
-    "static/js/main.60164492.js"
+    "static/js/main.0ecde680.js"
   ]
 }
