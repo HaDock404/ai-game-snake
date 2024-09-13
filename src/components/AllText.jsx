@@ -97,3 +97,79 @@ export const text_05bis = {
     en: "",
     fr: ""
 };
+
+/////////////////////////////////////////////////////////
+
+export const title_06 = {
+    en: "test",
+    fr: "test"
+};
+export const text_06 = {
+    en: "",
+    fr: ""
+};
+export const image1_06_title = {
+    en: "SQLite3",
+    fr: "SQLite3"
+};
+export const image2_06_title = {
+    en: "Dataframe",
+    fr: "Dataframe"
+};
+export const text_06bis = {
+    en: "",
+    fr: ""
+};
+
+/////////////////////////////////////////////////////////
+
+export const title_07 = {
+    en: "test",
+    fr: "test"
+};
+export const text_07 = {
+    en: "",
+    fr: ""
+};
+export const image1_07_title = {
+    en: "SQLite3",
+    fr: "SQLite3"
+};
+export const image2_07_title = {
+    en: "Dataframe",
+    fr: "Dataframe"
+};
+export const text_07bis = {
+    en: "",
+    fr: ""
+};
+
+/////////////////////////////////////////////////////////
+
+export const title_08 = {
+    en: "test",
+    fr: "test"
+};
+export const text_08 = {
+    en: "",
+    fr: ""
+};
+export const text_08bis = {
+    en: "",
+    fr: ""
+};
+
+/////////////////////////////////////////////////////////
+
+export const title_09 = {
+    en: "test",
+    fr: "test"
+};
+export const text_09 = {
+    en: "",
+    fr: ""
+};
+export const text_09bis = {
+    en: "",
+    fr: ""
+};
